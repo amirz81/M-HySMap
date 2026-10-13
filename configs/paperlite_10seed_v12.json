@@ -1,0 +1,18 @@
+{
+  "suite_name": "v12_paperlite_10seed",
+  "timeout_per_run_s": 1800,
+  "profile_T": 0.16,
+  "input_rate_hz": 6.0,
+  "placement_time": 0.35,
+  "placement_restarts": 4,
+  "joint_cycles": 2,
+  "passes_edge": 2,
+  "passes_hyper": 3,
+  "slack": 0.15,
+  "configs": [
+    {"name": "s0015_k16", "scale": 0.0015, "k": 16, "rows": 4, "cols": 4, "seeds": [3,5,7,11,13,17,19,23,29,31]},
+    {"name": "s0020_k16", "scale": 0.0020, "k": 16, "rows": 4, "cols": 4, "seeds": [3,5,7,11,13,17,19,23,29,31]},
+    {"name": "s0020_k25", "scale": 0.0020, "k": 25, "rows": 5, "cols": 5, "seeds": [3,5,7,11,13,17,19,23,29,31]},
+    {"name": "s0020_k36", "scale": 0.0020, "k": 36, "rows": 6, "cols": 6, "seeds": [3,5,7,11,13,17,19,23,29,31]}
+  ]
+}

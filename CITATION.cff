@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "M-HySMap: Activity-Weighted Multicast Hypergraph Mapping for Spiking Neural Networks on Mesh NoCs"
+message: "If you use this software, please cite the associated preprint."
+type: software
+authors:
+  - given-names: Amirreza
+    family-names: Khorasanian
+    email: akh5793@gmail.com
+date-released: 2026-08-27
+repository-code: "https://github.com/amirz81/M-HySMap"

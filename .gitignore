@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+Thumbs.db
+
+# Generated reruns
+run_outputs/
+results/local_*/
+*.log
