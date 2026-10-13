@@ -1,0 +1,31 @@
+{
+  "suite_name": "v12_smoke",
+  "config_path": "E:\\mhysmap_v13\\configs\\smoke_v12.json",
+  "out_dir": "E:\\mhysmap_v13\\results\\smoke_v13",
+  "total_jobs": 1,
+  "completed_rows": 20,
+  "wall_time_s": 5.844957599998452,
+  "defaults": {
+    "profile_T": 0.12,
+    "input_rate_hz": 5.0,
+    "placement_time": 0.2,
+    "placement_restarts": 2,
+    "joint_cycles": 1,
+    "passes_edge": 1,
+    "passes_hyper": 2,
+    "slack": 0.15
+  },
+  "timeout_per_run_s": 300.0,
+  "configs": [
+    {
+      "name": "smoke_s0015_k16",
+      "scale": 0.0015,
+      "k": 16,
+      "rows": 4,
+      "cols": 4,
+      "seeds": [
+        3
+      ]
+    }
+  ]
+}
